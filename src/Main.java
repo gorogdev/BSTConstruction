@@ -15,11 +15,22 @@ public class Main {
         //test grandchild
         System.out.println("Testing left grandchild: " + bst.left.left.value);
 
+//        System.out.println("Testing, contains 2: " + bst.contains(2));
+//        System.out.println("Testing, contains 3: " + bst.contains(3));
+//        System.out.println("Testing, contains 5: " + bst.contains(5));
+//        System.out.println("Testing, contains 55: " + bst.contains(55));
+//        System.out.println("Testing, contains -6: " + bst.contains(-6));
+//        System.out.println("Testing, contains 777: " + bst.contains(777));
+
+
+        bst.remove(2);
+        System.out.println("removed 2, testing....");
         System.out.println("Testing, contains 2: " + bst.contains(2));
         System.out.println("Testing, contains 3: " + bst.contains(3));
         System.out.println("Testing, contains 5: " + bst.contains(5));
         System.out.println("Testing, contains 55: " + bst.contains(55));
-        System.out.println("Testing, contains -6: " + bst.contains(-6));
-        System.out.println("Testing, contains 777: " + bst.contains(777));
+
+
+
     }
 }
